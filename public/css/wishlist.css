@@ -1,0 +1,17 @@
+@import url('https://framer-ui.netlify.app/components/framer.css');
+
+
+:root{
+    --border-black-op: rgba(0,0,0,0.1);
+}
+
+.navbar-bg{
+    padding: 1rem 1rem 0;
+    border-bottom: 1px solid var(--border-black-op);
+}
+
+
+.wishlist-container{
+    width: 95%;
+    margin: auto;
+}
