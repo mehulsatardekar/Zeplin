@@ -1,6 +1,5 @@
 @import url('https://framer-ui.netlify.app/components/framer.css');
 
-
 :root{
     --bg-gray:#F8F8F8;
     --gray-text:#696981;
@@ -8,7 +7,6 @@
     --border-black: rgba(0,0,0,0.2);
     --border-black-op: rgba(0,0,0,0.1);
 }
-
 .navbar-bg{
     padding: 1rem 1rem 0;
     border-bottom: 1px solid var(--border-black-op);
@@ -75,4 +73,4 @@
         flex-direction: column;
     }
 
-}
+} 
