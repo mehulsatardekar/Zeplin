@@ -13,29 +13,42 @@
         <div class="banner"></div>
         <div class="login-form ">
 
-            <div class="flex flex-column gap ui-card-default py-1 card-my-1 pb-2">
+            <div class="flex flex-column gap ui-card-default py-1 card-my-1 ">
                 <div class="flex flex-align-item-center flex-justify-center ">
                      <h4  class="font-sm label-text-primary">Sign-Up</h4>
                 </div>
                 <div class="flex flex-column gap-1">
-                    <label for="usernameInput1" class="label-text label-text-primary">Username</label>
-                    <input type="text" class="input" placeholder="Username" id="usernameInput1"
+                    <label for="username" class="label-text label-text-primary">Username</label>
+                    <input type="text" class="input" placeholder="Username" id="username"
                         aria-describedby="username">
                 </div>
+                <div class="flex flex-row gap">
+                    <div class="flex flex-column flex-1">   
+                        <label for="fname" class="label-text label-text-primary">First Name</label>
+                        <input type="text" class="input" placeholder="Password" id="fname">
+                    </div>
+                    <div class="flex flex-column flex-1">   
+                        <label for="lname" class="label-text label-text-primary">Last Name</label>
+                        <input type="text" class="input" placeholder="Password" id="lname">
+                    </div>
+                    
+                </div>
                 <div class="flex flex-column gap-1">
-                    <label for="exampleInputEmail1" class="label-text label-text-primary">Email Address</label>
-                    <input type="email" class="input" placeholder="Email" id="emailInput1"
+                    <label for="email" class="label-text label-text-primary">Email Address</label>
+                    <input type="email" class="input" placeholder="Email" id="email"
                         aria-describedby="emailHelp">
                 </div>
 
-                <div class="flex flex-column gap-1">
-                    <label for="passwordInput2" class="label-text label-text-primary">Password</label>
-                    <input type="password" class="input" placeholder="Password" id="passwordInput2">
-                </div>
-                <div class="flex flex-column gap-1">
-                    <label for="mobileInput" class="label-text label-text-primary">Mobile-No</label>
-                    <input type="tel" class="input" placeholder="Username" id="mobileInput"
-                        aria-describedby="mobile-number">
+                <div class="flex flex-row gap">
+                    <div class="flex flex-column flex-1 ">   
+                        <label for="password" class="label-text label-text-primary">password</label>
+                        <input type="password" class="input" placeholder="Password" id="password">
+                    </div>
+                    <div class="flex flex-column flex-1">   
+                        <label for="confirm-pass" class="label-text label-text-primary">Confirm password</label>
+                        <input type="password" class="input" placeholder="Password" id="confirm-pass">
+                    </div>
+                    
                 </div>
                 <div class="flex flex-between">
                     <div class="flex flex-row gap-1 flex-align-item-center">
