@@ -11,23 +11,24 @@
     <div class="login-container"> 
         <div class="banner"></div>
         <div class="login-form">
-            <div class="flex flex-align-item-center flex-justify-center pb-2 pt-2">
-                <h4  class="font-md wlcom-msg">Welcome to Zeplin</h4>
-           </div>
             <div class="flex flex-column gap ui-card-default py-1 card-my-1 pb-2">
+                <div class="flex flex-align-item-center flex-justify-center pb-2 pt-2">
+                    <h4  class="font-sm label-text-primary">Welcome To Zeplin</h4>
+               </div>
                 <div class="flex flex-align-item-center flex-justify-center pb-2 pt-2">
                      <h4  class="font-sm label-text-primary">Login</h4>
                 </div>
                 <div class="flex flex-column gap-1">
-                    <label for="exampleInputEmail1" class="label-text label-text-primary">Email Address</label>
+                    <label for="emailInput1" class="label-text label-text-primary">Email Address</label>
                     <input type="email" class="input" placeholder="Email" id="emailInput1"
                         aria-describedby="emailHelp">
                     <span class="font-md-light">We'll never share your email with anyone else.</span>
                 </div>
 
-                <div class="flex flex-column gap-1">
+                <div class="flex flex-column gap-1 relative">
                     <label for="passwordInput2" class="label-text label-text-primary">Password</label>
-                    <input type="password" class="input" placeholder="Password" id="passwordInput2">
+                    <input type="password" class="input width-full" placeholder="Password" id="passwordInput2">
+                    <span class="material-icons inp-abs">visibility</span>
                 </div>
                 <div class="flex flex-between">
                     <div class="flex flex-row gap-1 flex-align-item-center">
