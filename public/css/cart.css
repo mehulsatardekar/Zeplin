@@ -49,6 +49,11 @@
   color: var(--col-white);
 }
 
+.rm-inpt-spinner::-webkit-inner-spin-button, ::-webkit-outer-spin-button{
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
 @media screen and (min-width:220px) and (max-width:670px){
     .filters{
         display: block;
