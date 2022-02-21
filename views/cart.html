@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../public/css/restaurant-home.css">
+    <link rel="stylesheet" href="../public/css/cart.css">
+</head>
+<body>
+    <nav class="navbar navbar-fixed flex flex-wrap flex-between  navbar-bg nav-zindex ">
+        <div class="flex flex-space-evenly flex-align-item-center ">
+            <ul class=" text-deocration-none flex flex-wrap flex-align-item-center gap">
+                <li class="pb-1 nav-text navbar-white-text flex flex-align-item-center gap-1 hide">
+                    <span class="material-icons snackbar-icons  navbar-icons">menu</span>
+                </li>
+                <a href="../views/home.html" class="text-deocration-none list-style-none">
+                    <li class="pb-1  nav-text navbar-white-text flex flex-align-item-center gap-1">
+                        <span class="font-bold label-text label-text-primary">Zeplin</span>
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="flex flex-space-evenly flex-align-item-center ">
+            <ul class=" text-deocration-none flex flex-wrap gap-col-2">
+
+                <a href="../views/home.html" class="text-deocration-none">
+                    <li class="pb-1 nav-text  navbar-white-text flex flex-align-item-center gap-1">
+                        <span class="material-icons label-text label-text-primary">home</span>
+                        <span class="label-text label-text-primary">Home</span>
+                    </li>
+                </a>
+
+                <a href="../views/restaurants.html" class="text-deocration-none">
+                    <li class="pb-1 nav-text  navbar-white-text flex flex-align-item-center gap-1 ">
+                        <span class="material-icons label-text label-text-primary">dinner_dining</span>
+                        <span class="label-text label-text-primary">Restaurants</span>
+                    </li>
+                </a>
+                <a href="../views/cart.html" class="text-deocration-none">
+                    <li class="pb-1 nav-text  navbar-white-text flex flex-align-item-center gap-1">
+                        <span class="material-icons label-text label-text-primary">person</span>
+                        <span class="label-text label-text-primary">cart</span>
+                    </li>
+                </a>
+                <a href="../views/wishlist.html" class="text-deocration-none">
+                    <li class="pb-1 nav-text  navbar-white-text flex flex-align-item-center gap-1">
+                        <span class="material-icons label-text label-text-primary">queue</span>
+                        <span class="label-text label-text-primary">wishlisht</span>
+                    </li>
+                </a>
+                <a href="../views/login.html" class="text-deocration-none">
+                    <li class="pb-1 nav-text  navbar-white-text flex flex-align-item-center gap-1">
+                        <span class="material-icons label-text label-text-primary">logout</span>
+                        <span class="label-text label-text-primary">Logout</span>
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+    </nav>  
+
+    <main class="mb-3">
+       <section class="hotel-lists gap pt-1">
+           <div class="menu-lists">
+               <h1>Checkout</h1>
+            <div class="menu-section mb-1 mt-1">
+                <figure class="ui-card-default py-1 width-full">
+                    <blockquote class="flex flex-wrap gap pb-1">
+                      <p class="font-bold font-sm ">Mehul Satardekar</p>
+                      <span class="col-gray">(mehulsatardekar@gmail.com)</span>
+                    </blockquote>
+                    <figcaption class="blockquote-footer font-mid-light">
+                      <cite title="Source Title col-gray">You are securely logged in</cite>
+                    </figcaption>
+                  </figure>
+            </div>
+
+            <div class=" card-py gap shadow-sm mb-1 flex flex-column  pb-3">
+                
+                <div class="flex flex-between flex-wrap flex-align-item-center">
+                    <h1 class="font-mid-bold">Delivery Address</h1>
+                    <button class="btn-outline-primary btn btn-sm">Change</button>
+
+                </div>
+                <div class="flex flex-column gap-1">
+                    <span class="font-md-light">Deliver to:  <span class="label-text">John Doe, 560078</span></span>
+                    <span class="label-text">#1/4 , 100ft Ring Road, Jp Nagar - 4 Phase, Dollars Colony, Bangalore</span>
+
+                </div>
+
+            </div>
+
+
+
+
+           <div class="ui-card-default py">
+              <p class="pb-1 flex flex-align-item-center gap-1"> 
+                  <span class="font-bold font-sm ">Order Summary</span>
+                 <span class="col-gray">(3 dishes.)</span>
+            </p>
+            <div class="ui-card-list card-py gap shadow-sm mb-1">
+                
+                <div class="ui-card-list-img relative">
+                    <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/lite97zgd44crsd6znxo"
+                        alt="chinese work" loading="lazy">
+                    <div class="card-badge">
+                        <span>Pro- Get 20% off</span>
+                    </div>
+                </div>
+                <div class="ui-card-list-content">
+                    <span class="font-bold ">Chinese Wok (Wok Express) </span>
+                    <div>
+                        <span>&#x20b9;</span>
+                        <span class="font-md-light">254</span>
+                    </div>
+                    <span class="font-md-light">Light eater - choice of any 1 rice/noodles, 1 sauce, 4
+                        vegetables and 2 seasoning.</span>
+                </div>
+                <div class="ui-card-list-button gap flex flex-column">
+                    <div class="flex flex-row gap">
+                        <button class="btn-outline-primary btn pl-04 pr-04 pt-03">
+                            <span class="material-icons icon-menu">
+                                add
+                            </span>
+                        </button>
+    
+                        <input type="number" class="input input-qty" value="2" min="1">
+                        <button class="btn-outline-primary btn pl-04 pr-04 pt-03">
+                            <span class="material-icons icon-menu">
+                                remove
+                            </span>
+                        </button>
+                    </div>
+                    <button class="btn-primary btn btn-py-1 flex flex-justify-center width-full ">
+                        <span class="icon-default-pl">Remove from cart</span>
+                    </button>
+
+                    
+                </div>
+
+                
+            </div>
+
+            <div class="ui-card-list card-py gap shadow-sm mb-1">
+                
+                <div class="ui-card-list-img relative">
+                    <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/gfq5cpqjkllobns88bg8"
+                        alt="chinese work" loading="lazy">
+                    <div class="card-badge">
+                        <span>Pro- Get 20% off</span>
+                    </div>
+                </div>
+                <div class="ui-card-list-content">
+                    <span class="font-bold ">Chicken Personal Wok Bowl</span>
+                    <div>
+                        <span>&#x20b9;</span>
+                        <span class="font-md-light">294</span>
+                    </div>
+                    <span class="font-md-light">Light eater - choice of any 1 rice/noodles, 1 sauce, 4
+                        vegetables and 2 seasoning.</span>
+                </div>
+                <div class="ui-card-list-button gap flex flex-column">
+                    <div class="flex flex-row gap">
+                        <button class="btn-outline-primary btn pl-04 pr-04 pt-03">
+                            <span class="material-icons icon-menu">
+                                add
+                            </span>
+                        </button>
+    
+                        <input type="number" class="input input-qty" value="4" min="1">
+                        <button class="btn-outline-primary btn pl-04 pr-04 pt-03">
+                            <span class="material-icons icon-menu">
+                                remove
+                            </span>
+                        </button>
+                    </div>
+                    <button class="btn-primary btn btn-py-1 flex flex-justify-center width-full ">
+                        <span class="icon-default-pl">Remove from cart</span>
+                    </button>
+
+                    
+                </div>
+
+                
+            </div>
+           </div>
+
+
+            
+
+
+
+           
+          
+            
+
+
+
+
+
+           </div>
+
+
+           <div class="filters shadow-md mt-1">
+            <div class="flex flex-column py">
+                <div class="pb-1">
+                    <h4>Confirm Payment</h4>
+                </div>
+                 <div class="bg-gray py">
+                    <div class="flex flex-between flex flex-align-item-center mb-2">
+                        <span class="font-md-light">Select Promo codes</span>
+                        <a href="#" class="label-text label-text-primary text-deocration-none flex flex-align-item-center gap-1">
+                            <span><box-icon name='offer' type='solid' color='#4f46e5' ></box-icon></span> 
+                            <span>View Offers</span>
+                        </a>
+                    </div>
+                    <div class="divider mt-1"></div>
+                    <div class="flex flex-between flex flex-align-item-center pt-2">
+                      <span class="font-md-light">SubTotal</span>
+                      <span>
+                          <span>&#x20b9;</span>
+                          <span>1300</span>
+                      </span>
+                  </div>
+  
+                  <div class="flex flex-between flex flex-align-item-center mt-1">
+                      <span class="font-md-light">Taxes & charges</span>
+                      <span>
+                          <span>&#x20b9;</span>
+                          <span>30</span>
+                      </span>
+                  </div>
+  
+                  <div class="flex flex-between flex flex-align-item-center mt-1">
+                      <span class="font-md-light">Grand Total</span>
+                      <span>
+                          <span>&#x20b9;</span>
+                          <span>1330</span>
+                      </span>
+                  </div>
+                  <div class="divider mt-1"></div>
+                  </div>
+                  <div class="flex  flex flex-align-item-center mt-1">
+                    <span class="font-md-light label-text-danger">Orders once placed cannot be cancelled and are non-refundable. </span>
+                   
+                </div>
+                 
+                <div class="menu-section mb-1 mt-1">
+                    <figure class="ui-card-default py-1 width-full payment-bg">
+                        <blockquote class="flex flex-column flex-wrap gap pb-2">
+                          <p class="font-bold ">Proceed To Payment.</p>
+                          
+                        </blockquote>
+                        
+                       <div class="flex flex-column gap">
+                        <button class="btn-primary btn btn-py-1 flex flex-justify-center flex-align-item-center width-full gap-1 ">
+                            <span class="icon-pad-left">Pay Online</span>
+                            <span class="material-icons icon-sm">payments</span>
+                        </button>
+                        <button class=" btn btn-py-1 flex flex-justify-center flex-align-item-center width-full gap-1 btn-payments">
+                            <span class="icon-pad-left">Pay Cash on delivery</span>
+                        </button>
+                       </div>
+                      </figure>
+                </div>
+            </div>
+
+         </div>
+       </section>
+    </main>
+
+    <script src="../public/js/restaurants.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+
+</body>
+</html>
