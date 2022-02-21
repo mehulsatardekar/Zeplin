@@ -8,7 +8,7 @@
 
 Zeplin is a Foood ordering System, Where User can order the food online. Zeplin has various restaurant where user can order food from particular restaurants.
 
-You can checkout Furnbuy here 👉 [Zeplin-Homepage](https://zeplins.netlify.app/views/home.html "Zeplin")
+You can checkout Zeplin here 👉 [Zeplin-Homepage](https://zeplins.netlify.app/views/home.html "Zeplin")
 
 ---
 
