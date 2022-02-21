@@ -6,6 +6,11 @@
     --text-col-white:#FFFFFF;
     --text-col-gray:#9EA0A6;
     --radio-color:#4f46e5;
+    --tab-border-bottom:#6200EE;
+    --tab-ripples:#E9DDF9;
+     --tab-font:#6200EE;
+     --radio-color:#4f46e5;
+     --border:rgb(0,0,0,0.2);
 }
 .navbar{
     padding: 1rem 1rem 0;
@@ -24,8 +29,6 @@
     gap: 2rem;
 }
 
-
-
 .hotel-img{
     height: 15.625rem;
     width: 20.625rem;
@@ -38,10 +41,7 @@
     object-fit: cover;
 }
 
-
-
-
-.hotelname{
+.hotel-name{
     font-size: 2.6rem;
     color: var(--text-col-white);
     font-weight: 800;
@@ -51,10 +51,7 @@
     font-size: 1.2rem;
     color: var(--text-col-gray);
     font-weight: 400;
-    
 }
-
-
 
 .divider{
     border-right: 2px solid var(--text-col-gray);
@@ -91,11 +88,11 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    margin-top: 1;
 }
 .search-menu{
     width: 100%;
 }
+
 .menu-lists{
     flex: 7;
     gap:1rem;
@@ -115,6 +112,84 @@
 .filterbtn{
     display: none;
 }
+
+.tabs{
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.tabs-title{
+    padding: 1rem 1rem;
+    cursor: pointer;
+    margin: 0rem 0.1rem;
+    overflow-x: auto;
+}
+.tabs-radio{
+    display: none;
+}
+
+.tabs-content{
+    order: 1;
+    width: 100%;
+    padding-top: 2rem;
+    display: none;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+.tabs-radio:checked+.tabs-title{
+    background: var(--tab-ripples);
+    color: var(--tab-font);
+    font-weight:500;
+    border-bottom:  3px solid var(--tab-border-bottom);
+    transition: all 0.1s ease-in-out;
+}
+
+.tabs-title:hover{
+    border-bottom:  2px solid var(--tab-ripples);
+}
+
+.tabs-radio:checked+.tabs-title+.tabs-content{
+    display: block;
+}.tabs{
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+}
+
+.tabs-title{
+    padding: 1rem 1rem;
+    cursor: pointer;
+    margin: 0rem 0.1rem;
+    overflow-x: auto;
+}
+.tabs-radio{
+    display: none;
+}
+
+.tabs-content{
+    order: 1;
+    width: 100%;
+    padding-top: 2rem;
+    display: none;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+.tabs-radio:checked+.tabs-title{
+    background: var(--tab-ripples);
+    color: var(--tab-font);
+    font-weight:500;
+    border-bottom:  3px solid var(--tab-border-bottom);
+    transition: all 0.1s ease-in-out;
+}
+
+.tabs-title:hover{
+    border-bottom:  2px solid var(--tab-ripples);
+}
+
+.tabs-radio:checked+.tabs-title+.tabs-content{
+    display: block;
+}
 @media screen and (min-width:220px) and (max-width:670px){
     .filters{
         display: none;
@@ -127,7 +202,6 @@
 
     .ui-card-list {
       width: auto; 
-      
     }
 
     .hotelname{
@@ -145,6 +219,6 @@
         display: block;
     }
     .modal{
-        top:70px;
+        top:4.375em;
     }
 }
