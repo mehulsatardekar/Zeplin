@@ -14,19 +14,19 @@ You can checkout Furnbuy here 👉 [Zeplin-Homepage](https://zeplins.netlify.app
 
 ## Features of Zeplin :
 
-1. [Home Page](#home-page)
+1. [Home Page](https://zeplins.netlify.app/views/home.html)
 
-2. [Login Page](#products-page)
+2. [Login Page](https://zeplins.netlify.app/views/login.html)
 
-3. [Signup page]()
+3. [Signup page](https://zeplins.netlify.app/views/signup.html)
 
-4. [Restaurants page]()
+4. [Restaurants page](https://zeplins.netlify.app/views/restaurants.html)
 
-5. [Restaurants-home page]()
+5. [Restaurants-home page](https://zeplins.netlify.app/views/restaurant-home.html)
 
-6. [cart page]()
+6. [cart page](https://zeplins.netlify.app/views/cart.html)
 
-7. [wishlist page]()
+7. [wishlist page](https://zeplins.netlify.app/views/wishlist.html)
 
 ---
 
@@ -37,7 +37,7 @@ offers available in an app.
 
 ### Here's a preview of the **home page :**
 
-![homepage-zeplin]()
+![homepage-zeplin](/public/img/gifs/homepage.gif)
 
 ---
 
@@ -51,7 +51,7 @@ This page has a sign in form, where user is asked to enter the following details
 - Links for :forgot password & sign up/register
 ### Here's the preview of the **login page :**
 
-![loginpage-zeplin](/Assets/Gifs/products.gif)
+![loginpage-zeplin](/public/img/gifs/login.gif)
 
 
 ---
@@ -68,7 +68,7 @@ The user is directed to this page upon clicking the sign up link in the login fo
 
 ### Here's the preview of the **sign up page :**  
 
-![signup-zeplin](/Assets/Gifs/signup.gif)
+![signup-zeplin](/public/img/gifs/signup.gif)
 
 ---
 
@@ -78,7 +78,7 @@ The user is directed to this page upon clicking the profile icon on the navbar, 
 
 ### Here's the preview of the **sign out page :**  
 
-![signout-zeplin](/Assets/Gifs/signout.gif)
+![signout-zeplin](/public/img/gifs/logout.gif)
 
 --- 
 
@@ -99,7 +99,7 @@ The user is directed to this page upon clicking the profile icon on the navbar, 
 
 ### Here's the preview of the **Cart management page :**  
 
-![cart-zeplin](/Assets/Gifs/cart-page.gif)
+![cart-zeplin](/public/img/gifs/cart.gif)
 
 --- 
 
@@ -109,7 +109,7 @@ In the whishlist Page user can save most ordered food in the wishlist section al
 
 ### Here's the preview of the **Wishlist page :**  
 
-![wishlist-zeplin](/Assets/Gifs/cart-page.gif)
+![wishlist-zeplin](/public/img/gifs/wishlist.gif)
 
 --- 
 
@@ -120,7 +120,7 @@ In the Restaurant page user can search hotel filter out the hotels by price,cate
 
 ### Here's the preview of the **Restaurant page :**  
 
-![restaurants-zeplin](/Assets/Gifs/cart-page.gif)
+![restaurants-zeplin](/public/img/gifs/restaurants.gif)
 
 --- 
 
@@ -131,5 +131,5 @@ In the Restaurant-home page user can search hotel's specifc dishes and filter ou
 
 ### Here's the preview of the **Restaurant's-home page :**  
 
-![restaurant's home -zeplin](/Assets/Gifs/cart-page.gif)
+![restaurant's home -zeplin](/public/img/gifs/restaurants-home.gif)
 
