@@ -1,6 +1,5 @@
 @import url('https://framer-ui.netlify.app/components/framer.css');
 
-
 :root{
     --food-slider-bg:#171A29;
     --food-top-brands:#F8F8F8;
@@ -18,9 +17,7 @@
 .navbar-bg{
   padding: 1rem 1rem 0;
   border-bottom: 1px solid var(--border-black-op);
-
 }
-
 
 .discount-container{
     height: 40vh;
@@ -32,7 +29,6 @@
 }
 
 .cards-slider{
-    
   display: flex;
   list-style: none;
   overflow: auto;
@@ -70,11 +66,9 @@
     align-items: center;
 }
 
-
 .card-bg{
     background: var(--card-bg);
 }
-
 
 .img-dis-banner{
   height: 16.25rem;
@@ -86,7 +80,6 @@
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
-
 
 .img-round{
   background: var(--col-danger-light);
