@@ -1,0 +1,36 @@
+@import url('https://framer-ui.netlify.app/components/framer.css');
+
+
+.login-container{
+    display: flex;
+    flex-wrap:wrap;
+    height: 100vh;
+}
+
+.banner{
+    flex: 1;
+    background: url(../img/background/signup.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-form{
+    height: 100vh;
+    flex: 1;
+    margin: auto;
+    
+}
+
+.card-my-1{
+    margin: 1rem;
+}
+
+
+@media only screen and (min-width:130px) and (max-width:560px){
+   .banner{
+       display: none;
+   }
+
+   
+}   
