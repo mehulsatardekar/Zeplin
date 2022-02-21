@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../public/css/home.css">
+</head>
+<body>
+    <nav class="navbar navbar-fixed flex flex-wrap flex-between  navbar-bg nav-zindex">
+        <div class="flex flex-space-evenly flex-align-item-center ">
+            <ul class=" text-deocration-none flex flex-wrap flex-align-item-center gap">
+                <li class="pb-1 nav-text navbar-white-text flex flex-align-item-center gap-1 hide">
+                    <span class="material-icons snackbar-icons  navbar-icons">menu</span>
+                </li>
+                <a href="../views/home.html" class="text-deocration-none list-style-none">
+                    <li class="pb-1  navbar-white-text flex flex-align-item-center gap-1">
+                        <span class="font-bold label-text label-text-primary">Zeplin</span>
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="flex flex-space-evenly flex-align-item-center ">
+            <ul class=" text-deocration-none flex flex-wrap gap-col-2">
+
+                <a href="../views/home.html" class="text-deocration-none">
+                    <li class="pb-1 nav-text  navbar-white-text flex flex-align-item-center gap-1">
+                        <span class="material-icons label-text label-text-primary">home</span>
+                        <span class="label-text label-text-primary">Home</span>
+                    </li>
+                </a>
+
+                <a href="../views/restaurants.html" class="text-deocration-none">
+                    <li class="pb-1 nav-text  navbar-white-text flex flex-align-item-center gap-1 ">
+                        <span class="material-icons label-text label-text-primary">dinner_dining</span>
+                        <span class="label-text label-text-primary">Restaurants</span>
+                    </li>
+                </a>
+                <a href="../views/cart.html" class="text-deocration-none">
+                    <li class="pb-1 nav-text  navbar-white-text flex flex-align-item-center gap-1">
+                        <span class="material-icons label-text label-text-primary">person</span>
+                        <span class="label-text label-text-primary">cart</span>
+                    </li>
+                </a>
+                <a href="../views/wishlist.html" class="text-deocration-none">
+                    <li class="pb-1 nav-text  navbar-white-text flex flex-align-item-center gap-1">
+                        <span class="material-icons label-text label-text-primary">queue</span>
+                        <span class="label-text label-text-primary">wishlisht</span>
+                    </li>
+                </a>
+                <a href="../views/login.html" class="text-deocration-none">
+                    <li class="pb-1 nav-text  navbar-white-text flex flex-align-item-center gap-1">
+                        <span class="material-icons label-text label-text-primary">logout</span>
+                        <span class="label-text label-text-primary">Logout</span>
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+    </nav>  
+
+    <main class="mb-3">
+        <section class="discount-container">
+               <ul class="cards-slider" id="cards-slider">
+                  <a href="#">
+                    <li>
+                        <img class="img-dis-banner" src="../public/img/fish-discounts.png" alt="discounts" loading="lazy" srcset="">
+                    </li>
+                  </a>
+                  <a href="#">
+                    <li>
+                        <img class="img-dis-banner" src="../public/img/pav-bhaji.jfif" alt="discounts" loading="lazy" srcset="">
+                     </li>
+                  </a>
+                   <a href="#">
+                    <li>
+                        <img class="img-dis-banner" src="../public/img/chicken-sticks.jfif" alt="discounts" loading="lazy" srcset="">
+                    </li>
+                   </a>
+                   <a href="#">
+                    <li>
+                        <img class="img-dis-banner" src="../public/img/pav-bhaji.jfif" alt="discounts" loading="lazy" srcset="">
+                    </li>
+                   </a>
+                   <a href="#">
+                    <li>
+                        <img class="img-dis-banner" src="../public/img/pizza-coup.jfif" alt="discounts" loading="lazy" srcset="">
+                    </li>
+                   </a>
+                   <a href="#">
+                    <li>
+                        <img class="img-dis-banner" src="../public/img/chicken-sticks.jfif" alt="discounts" loading="lazy" srcset="">
+                    </li>
+                   </a>
+                   <a href="#">
+                    <li>
+                        <img class="img-dis-banner" src="../public/img/pav-bhaji.jfif" alt="discounts" loading="lazy" srcset="">
+                    </li>
+                   </a>
+                   <a href="#">
+                    <li>
+                        <img class="img-dis-banner" src="../public/img/pizza-coup.jfif" alt="discounts" loading="lazy" srcset="">
+                    </li>
+                   </a>
+               </ul>
+            <button class="btn btn-round-50 left" id="scrollLeft">
+                <span class="material-icons">west</span>
+            </button>
+            <button class=" btn btn-round-50 right" id="scrollRight">
+                <span class="material-icons">east </span>
+            </button>
+        </section>
+
+        <section class="container pt-3">
+            <div class="flex flex-between">
+                <div>
+                    <span class="font-bold label-text label-text-primary">Top Brands For You</span>
+                </div>
+                <div>
+                    <a href="../views/restaurants.html">
+                        <span class="label-text label-text-primary">See More</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="food-top-brands mt-1">
+
+                <ul class="cards-slider" id="brand-cards-slider">
+                    <a href="#">
+                      <li>
+                          <img class="img-round shadow-sm" src="../public/img/brands/starbuck.webp" alt="discounts" loading="lazy" srcset="">
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li>
+                          <img class="img-round shadow-sm" src="../public/img/brands/domminoz.webp" alt="discounts" loading="lazy" srcset="">
+                       </li>
+                    </a>
+                     <a href="#">
+                      <li>
+                          <img class="img-round shadow-sm" src="../public/img/brands/subway.webp" alt="discounts" loading="lazy" srcset="">
+                      </li>
+                     </a>
+                     <a href="#">
+                        <li>
+                            <img class="img-round shadow-sm" src="../public/img/brands/waffel.webp" alt="discounts" loading="lazy" srcset="">
+                        </li>
+                       </a>
+                       <a href="#">
+                        <li>
+                            <img class="img-round shadow-sm" src="../public/img/brands/domminoz.webp" alt="discounts" loading="lazy" srcset="">
+                         </li>
+                      </a>
+                       <a href="#">
+                        <li>
+                            <img class="img-round shadow-sm" src="../public/img/brands/subway.webp" alt="discounts" loading="lazy" srcset="">
+                        </li>
+                       </a>
+                       <a href="#">
+                          <li>
+                              <img class="img-round shadow-sm" src="../public/img/brands/waffel.webp" alt="discounts" loading="lazy" srcset="">
+                          </li>
+                         </a>
+                 </ul>
+              <button class="btn btn-round-50 left" id="brandScrollLeft">
+                  <span class="material-icons">west</span>
+              </button>
+              <button class=" btn btn-round-50 right" id="brandScrollRight">
+                  <span class="material-icons">east </span>
+              </button>
+
+
+                
+            </div>
+        </section>
+
+        <section class="container pt-3">
+            <div class="flex flex-between">
+                <div>
+                    <span class="font-bold label-text label-text-primary">Top Restaurants For You</span>
+                </div>
+                <div>
+                    <a href="../views/restaurants.html">
+                        <span class="label-text label-text-primary">See More</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex top-restaurants  mt-1 flex-wrap flex-space-around">
+                <div class="ui-card-basic card-bg card-py ui-card-width-300 card-mt-1  shadow-md">
+                    <div class="flex">
+                        <img src="https://b.zmtcdn.com/data/pictures/5/19037625/25c9072580c6d0dc7204b2817d3ec687_featured_v2.jpg"
+                            alt="seven kitcehn regels" class="ui-card-img">
+                    </div>
+                    <div class="flex flex-column pl-04 pt-1">
+                        <span class="font-bold pb-09 w-100">Seven Kitchen Regels</span>
+                        <span class="font-md-light pb-02  w-100">North-Indian, Mughlai, Tandoori</span>
+                    </div>
+                    <div class="ui-card-dec flex flex-between pl-04">
+                        <div class="rating-section flex-align-item-center mt-09 ">
+                            <div class="rating-icon flex pl-010 pr-010 pt-01 pb-01">
+                                <span class="material-icons icon-sm star-yellow">
+                                    star
+                                </span>
+                                <span class="card-rating-padding">4.5</span>
+                            </div>
+                
+                        </div>
+                        <div class="mt-09">
+                            <span class="font-md-light">500 for Two</span>
+                        </div>
+                    </div>
+                    <div class="ui-card-discount flex flex-justify-center pt-3px mt-1 ">
+                        <a href="../views/restaurants.html" class="btn-primary btn btn-sm width-full">Check Hotel</a>
+                    </div>
+                </div>
+
+                <div class="ui-card-basic card-bg card-py ui-card-width-300 card-mt-1 shadow-md">
+                    <div class="flex">
+                        <img src="https://b.zmtcdn.com/data/pictures/5/19037625/25c9072580c6d0dc7204b2817d3ec687_featured_v2.jpg"
+                            alt="seven kitcehn regels" class="ui-card-img">
+                    </div>
+                    <div class="flex flex-column pl-04 pt-1">
+                        <span class="font-bold pb-09 w-100">Seven Kitchen Regels</span>
+                        <span class="font-md-light pb-02  w-100">North-Indian, Mughlai, Tandoori</span>
+                    </div>
+                    <div class="ui-card-dec flex flex-between pl-04">
+                        <div class="rating-section flex-align-item-center mt-09 ">
+                            <div class="rating-icon flex pl-010 pr-010 pt-01 pb-01">
+                                <span class="material-icons icon-sm star-yellow">
+                                    star
+                                </span>
+                                <span class="card-rating-padding">4.5</span>
+                            </div>
+                
+                        </div>
+                        <div class="mt-09">
+                            <span class="font-md-light">500 for Two</span>
+                        </div>
+                    </div>
+                    <div class="ui-card-discount flex flex-justify-center pt-3px mt-1 ">
+                        <a href="../views/restaurants.html" class="btn-primary btn btn-sm width-full">Check Hotel</a>
+                    </div>
+                </div>
+
+                <div class="ui-card-basic card-bg card-py ui-card-width-300 card-mt-1 shadow-md">
+                    <div class="flex">
+                        <img src="https://b.zmtcdn.com/data/pictures/5/19037625/25c9072580c6d0dc7204b2817d3ec687_featured_v2.jpg"
+                            alt="seven kitcehn regels" class="ui-card-img">
+                    </div>
+                    <div class="flex flex-column pl-04 pt-1">
+                        <span class="font-bold pb-09 w-100">Seven Kitchen Regels</span>
+                        <span class="font-md-light pb-02  w-100">North-Indian, Mughlai, Tandoori</span>
+                    </div>
+                    <div class="ui-card-dec flex flex-between pl-04">
+                        <div class="rating-section flex-align-item-center mt-09 ">
+                            <div class="rating-icon flex pl-010 pr-010 pt-01 pb-01">
+                                <span class="material-icons icon-sm star-yellow">
+                                    star
+                                </span>
+                                <span class="card-rating-padding">4.5</span>
+                            </div>
+                
+                        </div>
+                        <div class="mt-09">
+                            <span class="font-md-light">500 for Two</span>
+                        </div>
+                    </div>
+                    <div class="ui-card-discount flex flex-justify-center pt-3px mt-1 ">
+                        <a href="../views/restaurants.html" class="btn-primary btn btn-sm width-full">Check Hotel</a>
+                    </div>
+                </div>
+
+
+                <div class="ui-card-basic card-bg card-py ui-card-width-300 card-mt-1 shadow-md">
+                    <div class="flex">
+                        <img src="https://b.zmtcdn.com/data/pictures/5/19037625/25c9072580c6d0dc7204b2817d3ec687_featured_v2.jpg"
+                            alt="seven kitcehn regels" class="ui-card-img">
+                    </div>
+                    <div class="flex flex-column pl-04 pt-1">
+                        <span class="font-bold pb-09 w-100">Seven Kitchen Regels</span>
+                        <span class="font-md-light pb-02  w-100">North-Indian, Mughlai, Tandoori</span>
+                    </div>
+                    <div class="ui-card-dec flex flex-between pl-04">
+                        <div class="rating-section flex-align-item-center mt-09 ">
+                            <div class="rating-icon flex pl-010 pr-010 pt-01 pb-01">
+                                <span class="material-icons icon-sm star-yellow">
+                                    star
+                                </span>
+                                <span class="card-rating-padding">4.5</span>
+                            </div>
+                
+                        </div>
+                        <div class="mt-09">
+                            <span class="font-md-light">500 for Two</span>
+                        </div>
+                    </div>
+                    <div class="ui-card-discount flex flex-justify-center pt-3px mt-1 ">
+                        <a href="../views/restaurants.html" class="btn-primary btn btn-sm width-full">Check Hotel</a>
+                    </div>
+                </div>
+              
+                
+            </div>
+        </section>
+    </main>
+
+    <script src="../public/js/home.js"></script>
+</body>
+</html>
