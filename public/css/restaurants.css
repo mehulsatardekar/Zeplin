@@ -49,7 +49,7 @@ body{
 
 .input{
     outline: none;
-    border: 0px;
+    border: 0;
 }
 
 .restro-lists-container{
@@ -58,7 +58,7 @@ body{
 }
 
 .card-border{
-    border: 1px solid rgb(0,0,0,0.0);
+    border: 1px solid transparent;
 }
 
 .card-border:hover{
@@ -73,9 +73,9 @@ body{
 }
 
 .tabs-title{
-    padding: 1rem 1rem;
+    padding: 1rem;
     cursor: pointer;
-    margin: 0rem 0.1rem;
+    margin: 0 1.6px;
     overflow-x: auto;
 }
 .tabs-radio{
@@ -85,7 +85,6 @@ body{
 .tabs-content{
     order: 1;
     width: 100%;
-    padding-top: 2rem;
     display: none;
     line-height: 1.5;
     padding: 2rem;
@@ -111,9 +110,9 @@ body{
 }
 
 .tabs-title{
-    padding: 1rem 1rem;
+    padding: 1rem;
     cursor: pointer;
-    margin: 0rem 0.1rem;
+    margin: 0 1.6px;
     overflow-x: auto;
 }
 .tabs-radio{
